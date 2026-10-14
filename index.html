@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chetan Sawale — DevOps • Cloud • Linux</title>
+<meta name="description" content="Chetan Sawale — aspiring DevOps & Cloud Engineer. Linux, AWS, Docker, CI/CD, monitoring. 6 open-source projects, 2 hackathon builds.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Boot shimmer: fast, skippable (click anywhere / 600ms max) -->
+<div id="boot" aria-hidden="true">
+  <div class="boot-inner">
+    <span class="boot-dot"></span>
+    <span class="mono">establishing uplink…</span>
+  </div>
+</div>
+
+<!-- ══════════ TOP STATUS BAR ══════════ -->
+<header id="statusbar">
+  <a class="wordmark mono" href="#overview">CHETAN<span class="dot-sep">.</span>SAWALE</a>
+  <div class="statusbar-right">
+    <span class="op-status mono"><span class="pulse-dot"></span>ALL SYSTEMS OPERATIONAL</span>
+    <span class="clock mono" id="ist-clock" title="India Standard Time">--:--:-- IST</span>
+    <nav class="mono">
+      <a href="#services">services</a>
+      <a href="#projects">projects</a>
+      <a href="#timeline">timeline</a>
+      <a href="#page-me" class="nav-cta">page&nbsp;me</a>
+    </nav>
+    <button id="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div id="mobile-menu" class="mono">
+  <a href="#overview">overview</a>
+  <a href="#services">services</a>
+  <a href="#projects">projects</a>
+  <a href="#timeline">timeline</a>
+  <a href="#page-me">page me</a>
+</div>
+
+<main>
+<!-- ══════════ HERO / SERVICE OVERVIEW ══════════ -->
+<section id="overview" class="panel hero">
+  <div class="panel-head mono">
+    <span class="panel-title">service overview</span>
+    <span class="panel-meta">region: ap-south-1 (mumbai) · env: production</span>
+  </div>
+  <div class="hero-body">
+    <div class="hero-text">
+      <p class="mono kicker">// aspiring devops &amp; cloud engineer</p>
+      <h1>CHETAN<br>SAWALE</h1>
+      <p class="role mono">DevOps <span class="sep">•</span> Cloud <span class="sep">•</span> Linux</p>
+      <p class="lede">B.Tech Computer Engineer turning infrastructure into a craft — Linux servers, AWS, containers, CI/CD pipelines, and monitoring that actually pages the right person.</p>
+      <div class="hero-links mono">
+        <a href="https://github.com/ChetanSawale" target="_blank" rel="noopener">github ↗</a>
+        <a href="https://www.linkedin.com/in/chetan-sawale-577b63438" target="_blank" rel="noopener">linkedin ↗</a>
+        <a href="mailto:sawalechetan102@gmail.com">email ↗</a>
+        <a href="https://chetan-portfolios.netlify.app/" target="_blank" rel="noopener" class="dim">v1 archive ↗</a>
+      </div>
+    </div>
+    <div class="stat-grid">
+      <div class="stat mono">
+        <span class="stat-value"><span class="counter" data-target="6">0</span></span>
+        <span class="stat-label">open-source projects</span>
+        <span class="stat-foot">shipped &amp; on github</span>
+      </div>
+      <div class="stat mono">
+        <span class="stat-value"><span class="counter" data-target="2">0</span></span>
+        <span class="stat-label">hackathon builds</span>
+        <span class="stat-foot">amazon · code for india</span>
+      </div>
+      <div class="stat mono">
+        <span class="stat-value"><span class="counter" data-target="7">0</span></span>
+        <span class="stat-label">alert rules validated</span>
+        <span class="stat-foot">prometheus monitoring lab</span>
+      </div>
+      <div class="stat mono">
+        <span class="stat-value"><span class="counter" data-target="4">0</span></span>
+        <span class="stat-label">domains in play</span>
+        <span class="stat-foot">devops · linux · dev · data</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ TICKER ══════════ -->
+<div class="ticker mono" aria-hidden="true">
+  <div class="ticker-track" id="ticker-track">
+    <span>b.tech computer engineering — university of mumbai, 2026</span><i>◆</i>
+    <span>reports executive @ hitachi cash management services</span><i>◆</i>
+    <span>devops mcp server — amazon build/ship/shape hackathon</span><i>◆</i>
+    <span>eksudhaar — code for india hackathon</span><i>◆</i>
+    <span>linux monitoring lab — prometheus + grafana</span><i>◆</i>
+    <span>open to relocate anywhere in india</span><i>◆</i>
+  </div>
+</div>
+
+<!-- ══════════ SERVICES / SKILLS ══════════ -->
+<section id="services" class="panel">
+  <div class="panel-head mono">
+    <span class="panel-title">services <span class="dim">/ skill health</span></span>
+    <span class="panel-meta"><span class="dot ok"></span>6/6 nominal</span>
+  </div>
+  <div class="svc-grid">
+
+    <article class="svc reveal">
+      <div class="svc-top">
+        <span class="dot ok"></span>
+        <h3 class="mono">linux &amp; scripting</h3>
+        <span class="svc-status mono ok-t">nominal</span>
+      </div>
+      <div class="bar"><span style="--w:92%"></span></div>
+      <canvas class="spark" width="220" height="36" aria-hidden="true"></canvas>
+      <ul class="mono">
+        <li>Linux server administration</li>
+        <li>Bash scripting &amp; automation</li>
+        <li>Networking &amp; systemd</li>
+      </ul>
+    </article>
+
+    <article class="svc reveal">
+      <div class="svc-top">
+        <span class="dot ok"></span>
+        <h3 class="mono">cloud / aws</h3>
+        <span class="svc-status mono ok-t">nominal</span>
+      </div>
+      <div class="bar"><span style="--w:78%"></span></div>
+      <canvas class="spark" width="220" height="36" aria-hidden="true"></canvas>
+      <ul class="mono">
+        <li>AWS fundamentals</li>
+        <li>EC2 provisioning &amp; config</li>
+        <li>Cloud deployments</li>
+      </ul>
+    </article>
+
+    <article class="svc reveal">
+      <div class="svc-top">
+        <span class="dot ok"></span>
+        <h3 class="mono">containers</h3>
+        <span class="svc-status mono ok-t">nominal</span>
+      </div>
+      <div class="bar"><span style="--w:85%"></span></div>
+      <canvas class="spark" width="220" height="36" aria-hidden="true"></canvas>
+      <ul class="mono">
+        <li>Docker &amp; Docker Compose</li>
+        <li>Multi-service container apps</li>
+        <li>Image builds &amp; volumes</li>
+      </ul>
+    </article>
+
+    <article class="svc reveal">
+      <div class="svc-top">
+        <span class="dot warn"></span>
+        <h3 class="mono">ci/cd &amp; git</h3>
+        <span class="svc-status mono warn-t">scaling up</span>
+      </div>
+      <div class="bar"><span style="--w:70%"></span></div>
+      <canvas class="spark" width="220" height="36" aria-hidden="true"></canvas>
+      <ul class="mono">
+        <li>Git &amp; GitHub workflows</li>
+        <li>CI/CD pipeline concepts</li>
+        <li>Kubernetes — learning</li>
+      </ul>
+    </article>
+
+    <article class="svc reveal">
+      <div class="svc-top">
+        <span class="dot ok"></span>
+        <h3 class="mono">monitoring</h3>
+        <span class="svc-status mono ok-t">nominal</span>
+      </div>
+      <div class="bar"><span style="--w:88%"></span></div>
+      <canvas class="spark" width="220" height="36" aria-hidden="true"></canvas>
+      <ul class="mono">
+        <li>Prometheus + Alertmanager</li>
+        <li>Grafana dashboards</li>
+        <li>7 validated alert rules</li>
+      </ul>
+    </article>
+
+    <article class="svc reveal">
+      <div class="svc-top">
+        <span class="dot ok"></span>
+        <h3 class="mono">languages</h3>
+        <span class="svc-status mono ok-t">nominal</span>
+      </div>
+      <div class="bar"><span style="--w:80%"></span></div>
+      <canvas class="spark" width="220" height="36" aria-hidden="true"></canvas>
+      <ul class="mono">
+        <li>Python · JavaScript / Node.js</li>
+        <li>PHP · SQL</li>
+        <li>TypeScript — growing</li>
+      </ul>
+    </article>
+
+  </div>
+</section>
+
+<!-- ══════════ PROJECTS / RUNNING SERVICES ══════════ -->
+<section id="projects" class="panel">
+  <div class="panel-head mono">
+    <span class="panel-title">running services <span class="dim">/ projects — click a service to drill down</span></span>
+    <span class="panel-meta"><span class="dot ok"></span>6 deployed to github</span>
+  </div>
+  <div class="proj-list">
+
+    <article class="proj reveal" data-svc>
+      <button class="proj-row" aria-expanded="false">
+        <span class="dot live pulse-dot"></span>
+        <span class="proj-name mono">asuragpt</span>
+        <span class="proj-tag mono">ai chat app · js</span>
+        <span class="badge live-b mono">● live</span>
+        <span class="chev" aria-hidden="true">▾</span>
+      </button>
+      <div class="drawer">
+        <p>AI chat application with a JavaScript backend and frontend — my first fully deployed build, and the one currently serving traffic.</p>
+        <div class="tags mono"><span>javascript</span><span>backend</span><span>frontend</span><span>deployed</span></div>
+        <div class="drawer-links mono">
+          <a href="https://asuragpt-2.onrender.com" target="_blank" rel="noopener">live demo ↗</a>
+          <a href="https://github.com/ChetanSawale/AsuraGPT" target="_blank" rel="noopener">repo ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="proj reveal" data-svc>
+      <button class="proj-row" aria-expanded="false">
+        <span class="dot ok"></span>
+        <span class="proj-name mono">devops-mcp-server</span>
+        <span class="proj-tag mono">mcp · node/ts</span>
+        <span class="badge mono">● shipped</span>
+        <span class="chev" aria-hidden="true">▾</span>
+      </button>
+      <div class="drawer">
+        <p>An MCP server that lets AI assistants manage Linux servers: system stats, Docker, systemd units, log tailing, and EC2 — built for the Amazon "Build, Ship, Shape" Developer Hackathon.</p>
+        <div class="tags mono"><span>node.js</span><span>typescript</span><span>docker</span><span>systemd</span><span>aws ec2</span></div>
+        <div class="drawer-links mono">
+          <a href="https://github.com/ChetanSawale/devops-mcp-server" target="_blank" rel="noopener">repo ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="proj reveal" data-svc>
+      <button class="proj-row" aria-expanded="false">
+        <span class="dot ok"></span>
+        <span class="proj-name mono">linux-monitoring-lab</span>
+        <span class="proj-tag mono">observability</span>
+        <span class="badge mono">● shipped</span>
+        <span class="chev" aria-hidden="true">▾</span>
+      </button>
+      <div class="drawer">
+        <p>Full monitoring stack lab: Prometheus + Grafana + Alertmanager via Docker Compose, a provisioned dashboard, 7 validated alert rules, and 3 incident-response drills with runbooks.</p>
+        <div class="tags mono"><span>prometheus</span><span>grafana</span><span>alertmanager</span><span>docker compose</span></div>
+        <div class="drawer-links mono">
+          <a href="https://github.com/ChetanSawale/linux-monitoring-lab" target="_blank" rel="noopener">repo ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="proj reveal" data-svc>
+      <button class="proj-row" aria-expanded="false">
+        <span class="dot ok"></span>
+        <span class="proj-name mono">linux-server-health-check</span>
+        <span class="proj-tag mono">bash automation</span>
+        <span class="badge mono">● shipped</span>
+        <span class="chev" aria-hidden="true">▾</span>
+      </button>
+      <div class="drawer">
+        <p>Bash health-check script for Linux servers: CPU/memory/disk thresholds, top processes, service status, failed SSH login detection, and timestamped reports.</p>
+        <div class="tags mono"><span>bash</span><span>linux</span><span>automation</span></div>
+        <div class="drawer-links mono">
+          <a href="https://github.com/ChetanSawale/linux-server-health-check" target="_blank" rel="noopener">repo ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="proj reveal" data-svc>
+      <button class="proj-row" aria-expanded="false">
+        <span class="dot ok"></span>
+        <span class="proj-name mono">eksudhaar</span>
+        <span class="proj-tag mono">civic tech</span>
+        <span class="badge mono">● shipped</span>
+        <span class="chev" aria-hidden="true">▾</span>
+      </button>
+      <div class="drawer">
+        <p>Civic-tech build for the Code for India hackathon: scores identity-correction applications 0–100% against a 28-rule national + state knowledge base, so people stop paying agents for applications that were always going to fail.</p>
+        <div class="tags mono"><span>full-stack</span><span>hackathon</span><span>social impact</span></div>
+        <div class="drawer-links mono">
+          <a href="https://github.com/ChetanSawale/eksudhaar" target="_blank" rel="noopener">repo ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="proj reveal" data-svc>
+      <button class="proj-row" aria-expanded="false">
+        <span class="dot ok"></span>
+        <span class="proj-name mono">docker-compose-pro</span>
+        <span class="proj-tag mono">containers</span>
+        <span class="badge mono">● shipped</span>
+        <span class="chev" aria-hidden="true">▾</span>
+      </button>
+      <div class="drawer">
+        <p>Containerized multi-service applications with Docker Compose — e.g. Node.js + MongoDB stacks: services, networks, volumes, and environment-driven config.</p>
+        <div class="tags mono"><span>docker</span><span>docker compose</span><span>node.js</span><span>mongodb</span></div>
+        <div class="drawer-links mono">
+          <a href="https://github.com/ChetanSawale/docker_compose_pro" target="_blank" rel="noopener">repo ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="proj ghost reveal" aria-hidden="true">
+      <div class="proj-row ghost-row mono">
+        <span class="dot idle"></span>
+        <span class="proj-name dim">more services deploying soon…</span>
+        <span class="badge mono dim">○ pending</span>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ══════════ TIMELINE / OPS HISTORY ══════════ -->
+<section id="timeline" class="panel">
+  <div class="panel-head mono">
+    <span class="panel-title">ops history <span class="dim">/ experience</span></span>
+    <span class="panel-meta">status-page style · newest first</span>
+  </div>
+  <ol class="timeline">
+    <li class="tl-item reveal">
+      <span class="tl-badge active mono">active</span>
+      <div class="tl-body">
+        <h3>Reports Executive — Hitachi Cash Management Services</h3>
+        <p class="mono dim">may 2026 → present · mumbai</p>
+        <p>ATM transaction reporting for banking operations: SQL, Python, Excel and Power BI. This is where my data instincts come from — and what I'm converting into a DevOps career.</p>
+      </div>
+    </li>
+    <li class="tl-item reveal">
+      <span class="tl-badge resolved mono">resolved</span>
+      <div class="tl-body">
+        <h3>DevOps MCP Server — Amazon "Build, Ship, Shape" Hackathon</h3>
+        <p class="mono dim">2026 · solo build</p>
+        <p>Shipped an MCP server that lets AI assistants operate Linux infrastructure — system stats, Docker, systemd, logs, EC2.</p>
+      </div>
+    </li>
+    <li class="tl-item reveal">
+      <span class="tl-badge resolved mono">resolved</span>
+      <div class="tl-body">
+        <h3>EkSudhaar — Code for India "Code for a Billion" Hackathon</h3>
+        <p class="mono dim">2026 · solo build</p>
+        <p>Built a pre-filing simulator that scores identity-correction applications against a 28-rule knowledge base — honest tooling against a dishonest agent economy.</p>
+      </div>
+    </li>
+    <li class="tl-item reveal">
+      <span class="tl-badge resolved mono">resolved</span>
+      <div class="tl-body">
+        <h3>B.Tech, Computer Engineering — University of Mumbai</h3>
+        <p class="mono dim">graduated may 2026 · gpa 7.6</p>
+        <p>St. John College of Engineering and Management. The foundation under all of this.</p>
+      </div>
+    </li>
+  </ol>
+</section>
+
+<!-- ══════════ ABOUT / NODE CARD ══════════ -->
+<section id="about" class="panel">
+  <div class="panel-head mono">
+    <span class="panel-title">node info <span class="dim">/ about</span></span>
+    <span class="panel-meta">operator: human, caffeinated</span>
+  </div>
+  <div class="about-grid">
+    <figure class="node-card reveal">
+      <span class="led tl"></span><span class="led tr"></span>
+      <span class="led bl"></span><span class="led br"></span>
+      <img src="assets/me.png" alt="Chetan Sawale">
+      <figcaption class="mono">chetan.sawale — node online</figcaption>
+    </figure>
+    <div class="about-text reveal">
+      <p>I'm Chetan — a B.Tech Computer Engineering graduate (Mumbai, 2026) currently working as a Reports Executive at Hitachi, where I live inside ATM transaction data with SQL, Python, Excel and Power BI.</p>
+      <p>On nights and weekends I run my own infrastructure: Linux servers, Docker Compose stacks, Prometheus + Grafana monitoring, and CI/CD experiments. The goal is simple — turn "the person who keeps the reports running" into "the person who keeps the systems running."</p>
+      <p class="mono dim">open to: devops · linux admin · full-stack · data roles — anywhere in india</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ CONTACT / PAGING ══════════ -->
+<section id="page-me" class="panel page-panel">
+  <div class="panel-head mono">
+    <span class="panel-title">paging <span class="dim">/ contact</span></span>
+    <span class="panel-meta"><span class="pulse-dot"></span>on-call: yes</span>
+  </div>
+  <div class="page-body reveal">
+    <h2>PAGE&nbsp;ME</h2>
+    <p class="mono dim">mean time to respond: usually same day</p>
+    <div class="page-grid mono">
+      <a href="mailto:sawalechetan102@gmail.com">email — sawalechetan102@gmail.com ↗</a>
+      <a href="tel:+919699486717">phone — +91 96994 86717 ↗</a>
+      <a href="https://github.com/ChetanSawale" target="_blank" rel="noopener">github — github.com/ChetanSawale ↗</a>
+      <a href="https://www.linkedin.com/in/chetan-sawale-577b63438" target="_blank" rel="noopener">linkedin — /in/chetan-sawale-577b63438 ↗</a>
+    </div>
+    <p class="mono dim">based in mumbai, india · open to relocate anywhere in india</p>
+    <a class="btn mono" href="mailto:sawalechetan102@gmail.com?subject=Hello%20Chetan%20—%20let's%20talk">send a page →</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="mono">
+  <span>uptime 99.9%</span><i>◆</i>
+  <span>built &amp; deployed by chetan sawale</span><i>◆</i>
+  <span>v2 · noc edition</span>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
