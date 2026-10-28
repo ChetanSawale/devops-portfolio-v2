@@ -232,6 +232,7 @@ main{max-width:1180px;margin:0 auto;padding:84px 22px 40px}
   padding:8px 14px;color:var(--text);background:var(--panel-2);
 }
 .drawer-links a:hover{text-decoration:none;border-color:var(--cyan)}
+.drawer-shot{display:block;width:calc(100% - 44px);height:auto;margin:10px 22px 6px;border:1px solid var(--line);border-radius:10px}
 .ghost{opacity:.55}
 .ghost-row{cursor:default}
 
